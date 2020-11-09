@@ -89,4 +89,5 @@ function startAnimation() {
 
 function reset() {
     dice.euler.set(0);
+    sortDiceSides();
 }

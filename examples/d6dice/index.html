@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>D6 Dice</title>
+    <script src="../../lib/pixi.js"></script>
+    <script src="../../lib/pixi-projection.js"></script>
+    <script src="../../lib/gsap.js"></script>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div id="example"></div>
+    <div>
+        <button onclick="startAnimation()">Animation</button>
+        <button onclick="reset()">Reset</button>
+    </div>
+    <div id="slidercontainer">
+        <div id="eulerX" class="slider">
+            <span>Euler X:</span>
+            <span class="amount">0</span>
+            <input type="range" min="-6.28" max="6.28" value="0" step="0.01" id="x">
+        </div>
+        <div id="eulerY" class="slider">
+            <span>Euler Y:</span>
+            <span class="amount">0</span>
+            <input type="range" min="-6.28" max="6.28" value="0" step="0.01" id="y">
+        </div>
+        <div id="eulerZ" class="slider">
+            <span>Euler Z:</span>
+            <span class="amount">0</span>
+            <input type="range" min="-6.28" max="6.28" value="0" step="0.01" id="z">
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

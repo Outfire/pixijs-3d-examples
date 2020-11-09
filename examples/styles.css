@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    justify-content: center;
+}
+
+.slider {
+    margin: 10px;
+}
+
+.slider input {
+    float: right;
+    width: 80%;
+}
